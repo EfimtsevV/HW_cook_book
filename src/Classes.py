@@ -18,7 +18,7 @@ class Cook_book:
                         'measure': measure
                     })
                 self.cook_book[dish_name] = ingredients
-                file.readline()  # Read the blank line separating the next dish
+                file.readline() 
         return self.cook_book
     
     def get_shop_list_by_dishes(self, dishes: list, person_count: int):
